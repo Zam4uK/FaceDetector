@@ -9,6 +9,9 @@ AWS_SECRET_KEY=
 AWS_REGION=
 
 
+Миграции в БД
+python manage.py migrate
+
 Запуск сервера
 python manage.py runserver
 

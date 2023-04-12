@@ -7,7 +7,9 @@ pip install -r requirements.txt
 #### Создать файл .env с содержимым
 
 AWS_ACCESS_KEY=
+
 AWS_SECRET_KEY=
+
 AWS_REGION=
 
 

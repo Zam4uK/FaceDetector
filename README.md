@@ -1,22 +1,27 @@
 # FaceDetector
 
-Установка библиотек
+#### Установка библиотек
+
 pip install -r requirements.txt
 
-Создать файл .env с содержимым
+#### Создать файл .env с содержимым
+
 AWS_ACCESS_KEY=
 AWS_SECRET_KEY=
 AWS_REGION=
 
 
-Миграции в БД
+#### Миграции в БД
+
 python manage.py migrate
 
-Запуск сервера
+#### Запуск сервера
+
 python manage.py runserver
 
 
-Пример запроса curl
+#### Пример запроса curl
+
 curl -i -X POST \
    -H "Content-Disposition:attachment; filename=*" \
    -H "Content-Type:image/jpeg" \
